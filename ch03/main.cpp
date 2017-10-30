@@ -83,9 +83,19 @@ void ex3_40()
     cout << cstr3 << endl;
 
 }
+
+void ex3_41()
+{
+    //用数组初始化vector对象
+    int arr[] = {1,2,3,4,5,6,7,8,9};
+    vector<int> v(begin(arr),end(arr));
+    for (auto i: v)
+        cout << i << " ";
+    cout << endl;
+}
 int main()
 {
-    ex3_40();
+    ex3_41();
     // ex3_39();
     //ex3_35();
     //ex3_34();
