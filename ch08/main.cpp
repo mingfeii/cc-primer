@@ -12,7 +12,8 @@ istream& ex8_1(istream &is)
 }
 int main()
 {
-    istream &is = ex8_1(cin);//打印流的状态
+
+   // istream &is = ex8_1(cin);//打印流的状态
     cout << is.rdstate() << endl;
     return 0;
 }
