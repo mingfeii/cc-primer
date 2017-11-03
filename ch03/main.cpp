@@ -2,7 +2,7 @@
 #include <iterator>
 #include <vector>
 #include <cstring>
-#include "ex3_43.cpp"
+
 
 using namespace std;
 
@@ -153,12 +153,12 @@ void arr2arr3()
 int main()
 {
     //arr2arr3();
-    // ex3_39();
+     ex3_39();
     //ex3_35();
     //ex3_34();
     //ex3_25();
     //cout << "Hello World!" << endl;
-   ex3_43();
+   //ex3_43();
 
    return 0;
 }
